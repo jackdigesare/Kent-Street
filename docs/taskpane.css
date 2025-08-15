@@ -10,7 +10,7 @@ html {
 
 .pane-header {
   background-color: #0078d4;
-  color: white;
+  color: green;
   padding: 10px;
   text-align: center;
 }
@@ -28,7 +28,7 @@ input {
 
 button {
   background-color: #0078d4;
-  color: white;
+  color: green;
   border: none;
   padding: 10px;
   width: 100%;
