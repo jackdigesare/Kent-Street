@@ -1,8 +1,3 @@
-/*
- * Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
- * See LICENSE in the project root for license information.
- */
-
 /* global console, document, Excel, Office */
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -10,7 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (info.host === Office.HostType.Excel) {
       document.getElementById("sideload-msg").style.display = "none";
       document.getElementById("app-body").style.display = "flex";
+
       document.getElementById("run").onclick = run;
+
       document.getElementById("writeCell").onclick = async () => {
         const value = document.getElementById("cellInput").value;
         await Excel.run(async (context) => {
