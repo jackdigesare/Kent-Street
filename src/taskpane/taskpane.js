@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   Office.onReady((info) => {
     if (info.host === Office.HostType.Excel) {
       document.getElementById("sideload-msg").style.display = "none";
-      document.getElementById("app-body").style.display = "block";
+      document.getElementById("app-body").style.display = "flex";
       document.getElementById("run").onclick = run;
       document.getElementById("writeCell").onclick = async () => {
         const value = document.getElementById("cellInput").value;
