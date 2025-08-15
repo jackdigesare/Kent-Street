@@ -1,1 +1,25 @@
-<!doctype html><html><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=Edge"/><script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script><script defer="defer" src="polyfill.js"></script><script defer="defer" src="commands.js"></script></head><body></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Kent Street Commands</title>
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <script>
+        Office.onReady(() => {
+            console.log("Add-in ready");
+        });
+
+        function showTaskpane() {
+            Office.context.ui.displayDialogAsync(
+                'https://jackdigesare.github.io/Kent-Street/taskpane.html',
+                { height: 50, width: 50 }
+            );
+        }
+    </script>
+</head>
+<body>
+    <button onclick="showTaskpane()">Open Taskpane</button>
+</body>
+</html>
