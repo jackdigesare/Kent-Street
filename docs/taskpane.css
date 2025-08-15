@@ -4,13 +4,13 @@
  */
 
 html {
-  background-color: green;
+  background-color: rgb(14, 71, 185);
   font-family: Arial, sans-serif;
 }
 
 .pane-header {
   background-color: #0078d4;
-  color: green;
+  color: rgb(0, 0, 0);
   padding: 10px;
   text-align: center;
 }
@@ -28,7 +28,7 @@ input {
 
 button {
   background-color: #0078d4;
-  color: green;
+  color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
   width: 100%;
