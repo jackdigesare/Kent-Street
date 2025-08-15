@@ -8,7 +8,7 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Jack DiGesare</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Kent Street Pane"/>
+  <DisplayName DefaultValue="CalcBoss"/>
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://jackdigesare.github.io/Kent-Street/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://jackdigesare.github.io/Kent-Street/assets/icon-64.png"/>

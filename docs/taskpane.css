@@ -3,6 +3,10 @@
  * See LICENSE in the project root for license information.
  */
 
+#app-body {
+  display: none;
+}
+
 html {
   background-color: rgb(14, 71, 185);
   font-family: Arial, sans-serif;
